@@ -1,0 +1,27 @@
+.review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.review-form textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.review-form select {
+    padding: 5px;
+}
+
+.review-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.review-form button:hover {
+    background-color: #218838;
+}
