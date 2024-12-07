@@ -1,0 +1,99 @@
+.movie-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.movie-list-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.movie-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    margin: 0;
+    transition: color 0.2s ease;
+}
+
+.movie-title:hover {
+    color: #4f46e5;
+}
+
+.movie-tags {
+    display: flex;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.genre-tag {
+    background-color: #e0e7ff;
+    color: #4f46e5;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.status-tag {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.status-tag.active {
+    background-color: #d1fae5;
+    color: #047857;
+}
+
+.status-tag.inactive {
+    background-color: #fde2e2;
+    color: #dc2626;
+}
+
+.movie-rating {
+    display: flex;
+    gap: 2px;
+}
+
+.star {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.star.filled {
+    color: #fbbf24;
+
+}
+
+.star.half {
+    color: #fbbf24;
+
+}
+
+/* MovieListItem.css */
+.star {
+    color: lightgray;
+
+}
+
+.star.filled {
+    color: gold;
+}
