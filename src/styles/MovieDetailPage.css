@@ -1,0 +1,47 @@
+.movie-detail-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.movie-info {
+    margin-bottom: 20px;
+}
+
+.movie-details p {
+    margin: 5px 0;
+}
+
+.status.active {
+    color: green;
+    font-weight: bold;
+}
+
+.status.inactive {
+    color: gray;
+    font-weight: bold;
+}
+
+.review-form textarea {
+    width: 100%;
+    height: 80px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.review-form select {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.review-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.star {
+    color: lightgray;
+}
+
+.star.filled {
+    color: gold;
+}
